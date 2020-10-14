@@ -25,6 +25,10 @@
 	color: red;
 }
 
+#sidebar .widget-title {
+	text-align: center;
+}
+
 
 .recent-post-item {
 	width: 95%;
@@ -44,12 +48,14 @@
 	flex: 1;
 	display: flex;
 	/*display: block;*/
+	/*width: 100%;*/
 	width: 100%;
 	/*background-color: pink;*/
 }
 
 #details-post {
 	flex: 8;
+	max-width: 80%;
 	/*background-color: #bfa;*/
 }
 
@@ -107,3 +113,25 @@
 #page #lv-container {
 	width: 100%;
 }
+
+#tag {
+	width: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+#archive-details {
+	width: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+#category {
+	width: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+#other-paginator {
+	margin-top: 50px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+

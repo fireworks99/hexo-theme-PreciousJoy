@@ -6,17 +6,26 @@ A simple theme made by a newbie.
 ## Install
 
 ~~~shell
-git clone https://github.com/fireworks99/hexo-theme-PreciousJoy.git
+$ cd your-hexo-site
+$ git clone https://github.com/fireworks99/hexo-theme-PreciousJoy themes/PreciousJoy
 ~~~
 
-## Update
+## And install
+
+~~~shell
+$ npm install hexo-generator-search --save
+~~~
+
+> A plugin which support you search blogs  in your site
+
+## If Update(Not necessary)
 
 ~~~shell
 cd themes/Precious
 git pull
 ~~~
 
-## blog root _config.yml
+## Your-hexo-site _config.yml
 
 ~~~yaml
 # Hexo Configuration
@@ -66,7 +75,7 @@ post_asset_folder: true
 relative_link: false
 future: true
 highlight:
-  enable: false
+  enable: false         # I's important for this theme(PreciousJoy).
   line_number: true
   auto_detect: false
   tab_replace: ''
@@ -124,12 +133,86 @@ theme: PreciousJoy
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  repository: git@github.com:yoursite/yoursite.github.io.git
+  branch: master
 
 search:
   path: search.xml
   field: post
   content: true
+
+~~~
+
+> If you modified the _config.yml, remember to run `hexo clean`.
+
+## PreciousJoy _config.yml
+
+~~~yaml
+
+# html lang
+language: en
+
+# main menu navigation
+menu:
+  Home: /
+  About: /about
+  Archives: /archives
+
+# stylesheets loaded in the <head>
+stylesheets:
+- /css/PreciousJoy.css
+- /css/top-bar.css
+- /css/menu-outer.css
+- /css/content-outer.css
+- /css/bottom-outer.css
+- /css/atom-one-dark.css
+- /css/recent-posts-item.css
+- /css/article-sidebar-toc.css
+- /css/jquery.fancybox.min.css
+- /css/search.css
+
+
+
+- /css/Z-last-cover-others.css
+
+# scripts loaded in the end of the body
+scripts:
+- /js/jquery-3.5.1.min.js
+- /js/PreciousJoy.js
+- /js/highlight.pack.js
+- /js/jquery.fancybox.min.js
+- /js/search.js
+- /js/load.js
+
+
+# userinfo
+author: fireworks99
+slogan: keep hungry keep foolish
+avatar: 
+
+# Fancybox support
+fancybox: true
+
+# some widgets
+widgets:
+- blogroll
+- category
+- tag
+- tagcloud
+- archive
+- recent_posts
+
+# friends
+blogroll:
+  fireworks99: https://fireworks99.github.io/
+
+Livere:
+  livere_uid: 'Your data-uid'
+
+local_search:
+  enable: true
+  facade: ""
 
 ~~~
 
