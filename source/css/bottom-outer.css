@@ -1,0 +1,13 @@
+#bottom-outer {
+	background-color: rgba(	65,105,225, 0.5);
+/*	position: sticky;
+	bottom: 0;*/
+}
+
+#bottom-inner {
+	font-size: 1em;
+}
+
+#bottom-inner a {
+	color: yellow;
+}

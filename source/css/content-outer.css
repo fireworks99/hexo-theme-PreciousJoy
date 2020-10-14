@@ -1,0 +1,109 @@
+#content-outer {
+	width: 100%;
+	/*background-color: #bfa;*/
+}
+
+#content-inner {
+	padding: 30px;
+	display: flex;
+}
+
+#recent-posts-box {
+	flex: 8;
+	/*background-color: pink;*/
+}
+
+#sidebar {
+	flex: 2;
+}
+
+#sidebar a {
+	color: black;
+}
+
+#sidebar a:hover {
+	color: red;
+}
+
+
+.recent-post-item {
+	width: 95%;
+	/*height: 200px;*/
+	/*border-radius: 5%;*/
+	margin-top: 50px;
+	background-color: rgba(255, 255, 255, 0.8);
+}
+
+.widget-box {
+	margin-top: 50px;
+	border-radius: 5%;
+	background-color: rgba(255, 255, 255, 0.7);
+}
+
+#details {
+	flex: 1;
+	display: flex;
+	/*display: block;*/
+	width: 100%;
+	/*background-color: pink;*/
+}
+
+#details-post {
+	flex: 8;
+	/*background-color: #bfa;*/
+}
+
+/*#details-sidebar {
+	flex: 2;
+	background-color: orange;
+}*/
+
+#toc {
+	flex: 2;
+	background-color: rgba(255, 255, 255, 0.7)
+}
+
+#details-post-item {
+	width: 95%;
+	background-color: rgba(255, 255, 255, 0.8);
+}
+
+#details-post-item p a {
+	display: flex;
+	overflow: auto;
+}
+
+#details-post-item img{
+	margin: auto;
+	max-width: 100%;
+}
+
+
+#recent-posts-paginator {
+	margin-top: 10px;
+	width: 95%;
+	text-align: center;
+	background-color: rgba(255, 255, 255, 0.8);
+}
+
+#content-inner #page {
+	width: 100%;
+	background-color: rgba(255, 255, 255, 0.8);
+}
+
+#content-inner #archive {
+	width: 100%;
+	background-color: rgba(255, 255, 255, 0.8);
+}
+
+.page-number {
+	margin: 0 10px; 
+}
+
+#lv-container {
+	width: 95%;
+}
+
+#page #lv-container {
+	width: 100%;
+}

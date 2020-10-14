@@ -1,0 +1,63 @@
+
+body {
+    margin: 0;
+    height: 100vh;
+    font-family: Arial, Roboto, "Droid Sans", "Hiragino Sans GB", "Microsoft YaHei", "Simsun", STXihei, "sans-serif";
+}
+
+a {
+	text-decoration: none;
+}
+
+#wrapper {
+  background-image: url('../images/bg_bridge.jpeg');
+  background-color: #C7C9EA;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  position: absolute;
+  right: 0;
+  width: 100%;
+/*  height: 100vh;*/
+  transition: 0.2s ease-out;
+  z-index: 1;
+}
+
+#details-post-item blockquote p code {
+  /*overflow: hidden;*/
+  word-wrap: break-word;
+}
+
+/* #################### 文章索引 #################### */
+
+aside #toc a.read{
+    /*color: #e06c75;*/
+    color: #87daff;
+    border-bottom: 0;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+aside #toc a{
+    color: #999;
+    border-bottom: 0;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
+}
+
+aside #toc a:hover{
+    /*color: #87daff;*/
+    color: #e5c07b;
+    padding-left: 20px;
+    -webkit-transition: 0.1s;
+    -moz-transition: 0.1s;
+    -ms-transition: 0.1s;
+    -o-transition: 0.1s;
+}
+
+/* #################### 文章索引 #################### */
+

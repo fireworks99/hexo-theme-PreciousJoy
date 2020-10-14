@@ -1,0 +1,16 @@
+#toc ul{
+	position: sticky;
+	top: 0;
+}
+
+#toc a{
+	color: black;
+}
+
+#toc a:hover{
+	color: red;
+}
+
+#toc ul {
+	margin-left: -22px;
+}

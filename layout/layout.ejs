@@ -1,0 +1,103 @@
+
+<%
+var pageTitle = page.title || config.subtitle || '';
+if (is_archive()) pageTitle = 'Archives';
+if (is_tag()) pageTitle = 'Tag: ' + page.tag;
+if (is_category()) pageTitle = 'Category: ' + page.category;
+if (is_month()) pageTitle += ': ' + page.month + '/' + page.year;
+if (is_year()) pageTitle += ': ' + page.year;
+pageTitle += ' [ ' + config.title + ' ]';
+%>
+
+<!DOCTYPE html>
+<html lang="<%=config.language%>">
+<head>
+	<meta charset="UTF-8">
+	<title><%=pageTitle%></title>
+	
+	<% if (theme.stylesheets !== undefined && theme.stylesheets.length > 0) { %>
+	<!-- stylesheets list from _config.yml -->
+	<% theme.stylesheets.forEach(url => { %>
+	<link rel="stylesheet" href="<%=url%>">
+	<% }); %>
+	<% } %>
+
+</head>
+
+
+
+
+<body id="wrapper">
+
+	<div id="">
+		
+		<div id="top-bar">
+			
+			<div id="avatar-box">
+				<img 
+				class="avatar"
+				src="<%= theme.avatar ? theme.avatar : '/images/default-avatar.jpg' %>" 
+				alt="avatar">
+			</div>
+
+			<div id="top-bar-text">
+				<div id="top-bar-title">
+					<%=theme.author%>
+				</div>
+				<div id="top-bar-slogan">
+					<%=theme.slogan%>
+				</div>
+			</div>
+
+		</div>
+
+		<div id="menu-outer">
+			<div id="menu-inner">
+				
+				<% Object.keys(theme.menu).forEach(key => { %>
+				<div id="menu-item">
+					<a href="<%=theme.menu[key]%>"><%=key%></a>
+				</div>
+				<% }); %>
+
+				<div id="menu-item">
+					<%-partial('partials/search')%>	
+				</div>
+
+			</div>
+		</div>
+
+		<div id="content-outer">
+			<div id="content-inner">
+
+				<%- body %>
+
+			</div>
+		</div>
+
+		<div id="bottom-outer">
+			<div id="bottom-inner">
+				Site by <%=config.author%> | 
+				Powered by <a href="http://hexo.io">Hexo</a> |
+				theme <a href="https://github.com/fireworks99">PreciousJoy</a>
+			</div>
+		</div>
+
+		
+	</div>
+
+
+
+
+
+	<% if (theme.scripts !== undefined && theme.scripts.length > 0) { %>
+	<!-- scripts list from theme config.yml -->
+	<% theme.scripts.forEach(url => { %>
+	<script src="<%=url%>"></script>
+	<% }); %>
+	<% } %>
+
+	<script>hljs.initHighlightingOnLoad();</script>
+
+</body>
+</html>

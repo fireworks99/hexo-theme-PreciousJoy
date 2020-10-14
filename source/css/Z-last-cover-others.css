@@ -1,0 +1,109 @@
+/* #################### 自适应 #################### */
+
+@media screen and (max-width: 768px) {
+    /*#sidebar{
+        display: none;
+    }*/
+
+    #content-inner {
+        width: 100%;
+        display: block;
+        padding: 0;
+    }
+    #recent-posts-box {
+        width: 100%;
+    }
+    #details {
+        display: block;
+    }
+    #details-post {
+        width: 100%;
+    }
+
+    /*#toc {
+        display: none;
+    }*/
+
+    #wrapper {
+        background: rgb(245, 245, 213);
+    }
+
+    .recent-post-item {
+        width: 100%;
+    }
+
+    #top-bar {
+        display: none;
+    }
+
+    #details-post-item {
+        width: 100%;
+    }
+
+}
+
+/*竖屏*/
+@media all and (orientation : portrait) {
+
+    /*special*/
+
+    body {
+
+        /*Bug : if not portrait screen but width <= 624px, the font size is so large.*/
+
+        font-size: 300%;
+    }
+
+    /*This is very important: change 'flex' to 'block'.*/
+    #details {
+        display: block;
+    }
+
+    #lv-container {
+        display: none;
+        width: 100%;
+    }
+
+    /*mutual*/
+
+    /*#sidebar {
+        display: none;
+    }*/
+
+    #content-inner {
+        width: 100%;
+        display: block;
+        padding: 0;
+    }
+    #recent-posts-box {
+        width: 100%;
+
+    }
+
+
+    /*#toc {
+        display: none;
+    }*/
+
+    #wrapper {
+        background: rgb(245, 245, 213);
+    }
+
+    .recent-post-item {
+        width: 100%;
+    }
+
+    #top-bar {
+        display: none;
+    }
+
+    #details-post-item {
+        width: 100%;
+    }
+
+
+}
+
+
+
+/* #################### 自适应 #################### 

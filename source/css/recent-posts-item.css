@@ -1,0 +1,15 @@
+.recent-post-item a {
+	color: black;
+	font-size: 1.5em;
+}
+
+.recent-post-item time {
+	color: black;
+	font-size: 1.5em;
+	float: right;
+}
+
+.recent-post-item a:hover {
+	color: white;
+	background-color: black;
+}

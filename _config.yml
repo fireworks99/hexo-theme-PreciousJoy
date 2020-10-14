@@ -1,0 +1,64 @@
+
+# html lang
+language: en
+
+# main menu navigation
+menu:
+  Home: /
+  About: /about
+  Archives: /archives
+
+# stylesheets loaded in the <head>
+stylesheets:
+- /css/PreciousJoy.css
+- /css/top-bar.css
+- /css/menu-outer.css
+- /css/content-outer.css
+- /css/bottom-outer.css
+- /css/atom-one-dark.css
+- /css/recent-posts-item.css
+- /css/article-sidebar-toc.css
+- /css/jquery.fancybox.min.css
+- /css/search.css
+
+
+
+- /css/Z-last-cover-others.css
+
+# scripts loaded in the end of the body
+scripts:
+- /js/jquery-3.5.1.min.js
+- /js/PreciousJoy.js
+- /js/highlight.pack.js
+- /js/jquery.fancybox.min.js
+- /js/search.js
+- /js/load.js
+
+
+# userinfo
+author: fireworks99
+slogan: keep hungry keep foolish
+avatar: 
+
+# Fancybox support
+fancybox: true
+
+# some widgets
+widgets:
+- blogroll
+- category
+- tag
+- tagcloud
+- archive
+- recent_posts
+
+# friends
+blogroll:
+  fireworks99: https://fireworks99.github.io/
+
+Livere:
+  livere_uid: 'MTAyMC80NjIyNC8yMj3zNQ=='
+
+local_search:
+  enable: true  #搜索开关
+  facade: ""  #搜索框样式
