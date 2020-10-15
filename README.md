@@ -3,6 +3,16 @@ A simple theme made by a newbie.
 
 <a href="https://fireworks99.github.io/" style="color:violet;">Demo</a>
 
+![main](./demo/main.png)
+
+![search](./demo/search.png)
+
+![mobile_main](./demo/mobile_main.png)
+
+![mobile_details](./demo/mobile_details.png)
+
+
+
 ## Install
 
 ~~~shell

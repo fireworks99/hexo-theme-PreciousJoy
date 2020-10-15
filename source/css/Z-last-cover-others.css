@@ -41,7 +41,7 @@
     }
 
     #details-post {
-    	max-width: 100%;
+    	min-width: 100%;
     }
 
     #recent-posts-paginator {
@@ -110,7 +110,7 @@
     }
 
     #details-post {
-    	max-width: 100%;
+    	min-width: 100%;
     }
 
     #recent-posts-paginator {
