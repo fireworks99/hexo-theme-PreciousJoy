@@ -18,13 +18,6 @@ $ npm install hexo-generator-search --save
 
 > A plugin which support you search blogs  in your site
 
-## If Update(Not necessary)
-
-~~~shell
-cd themes/Precious
-git pull
-~~~
-
 ## Your-hexo-site _config.yml
 
 ~~~yaml
@@ -125,9 +118,7 @@ include:
 exclude:
 ignore:
 
-# Extensions
-## Plugins: https://hexo.io/plugins/
-## Themes: https://hexo.io/themes/
+
 theme: PreciousJoy
 
 # Deployment

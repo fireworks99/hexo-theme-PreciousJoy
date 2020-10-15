@@ -40,6 +40,14 @@
         width: 100%;
     }
 
+    #details-post {
+    	max-width: 100%;
+    }
+
+    #recent-posts-paginator {
+    	width: 100%;
+    }
+
 }
 
 /*竖屏*/
@@ -101,6 +109,13 @@
         width: 100%;
     }
 
+    #details-post {
+    	max-width: 100%;
+    }
+
+    #recent-posts-paginator {
+    	width: 100%;
+    }
 
 }
 

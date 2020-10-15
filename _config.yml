@@ -60,5 +60,5 @@ Livere:
   livere_uid: 'MTAyMC80NjIyNC8yMj3zNQ=='
 
 local_search:
-  enable: true  #搜索开关
-  facade: ""  #搜索框样式
+  enable: true
+  facade: "" 
