@@ -1,0 +1,66 @@
+#toc>ul>li>a:after {
+	content: "";
+	display: block;
+	width: 150px;
+	height: 2px;
+	background: linear-gradient(to right, blue, purple, red, orange, yellow, green, cyan);
+}
+
+#toc>ul>li>ul>li>a:after {
+	content: "";
+	display: block;
+	width: 130px;
+	height: 2px;
+	background: linear-gradient(to right, red, orange, yellow, green, cyan);
+}
+
+#toc>ul>li>ul>li>ul>li>a:after {
+	content: "";
+	display: block;
+	width: 110px;
+	height: 2px;
+	background: linear-gradient(to right, yellow, green, cyan);
+}
+
+#toc>ul>li {
+	list-style: none;
+}
+#toc>ul>li:before {
+	content: '';
+    display: inline-block;
+    margin-right: 5px;
+    margin-top: 2px;
+    width: 15px;
+    height: 15px;
+    background-size: 15px;
+    background-image: url('/images/file1.svg');
+}
+
+#toc>ul>li>ul>li {
+	list-style: none;
+}
+#toc>ul>li>ul>li:before {
+	content: '';
+    display: inline-block;
+    margin-right: 5px;
+    margin-top: 2px;
+    width: 15px;
+    height: 15px;
+    background-size: 15px;
+    background-image: url('/images/file2.svg');
+}
+
+#toc>ul>li>ul>li>ul>li {
+	list-style: none;
+}
+#toc>ul>li>ul>li>ul>li:before {
+	content: '';
+    display: inline-block;
+    margin-right: 5px;
+    margin-top: 2px;
+    width: 15px;
+    height: 15px;
+    background-size: 15px;
+    background-image: url('/images/file3.svg');
+}
+

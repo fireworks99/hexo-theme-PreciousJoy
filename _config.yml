@@ -20,7 +20,7 @@ stylesheets:
 - /css/article-sidebar-toc.css
 - /css/jquery.fancybox.min.css
 - /css/search.css
-
+- /css/toc.css
 
 
 - /css/Z-last-cover-others.css
