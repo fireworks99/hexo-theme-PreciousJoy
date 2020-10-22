@@ -30,9 +30,12 @@
     display: inline-block;
     margin-right: 5px;
     margin-top: 2px;
-    width: 15px;
-    height: 15px;
-    background-size: 15px;
+    /*width: 15px;*/
+    /*height: 15px;*/
+    /*background-size: 15px;*/
+    width: 1.2em;
+    height: 1.2em;
+    background-size: 1.2em;
     background-image: url('/images/file1.svg');
 }
 
@@ -44,9 +47,12 @@
     display: inline-block;
     margin-right: 5px;
     margin-top: 2px;
-    width: 15px;
+    /*width: 15px;
     height: 15px;
-    background-size: 15px;
+    background-size: 15px;*/
+    width: 1.2em;
+    height: 1.2em;
+    background-size: 1.2em;
     background-image: url('/images/file2.svg');
 }
 
@@ -58,9 +64,12 @@
     display: inline-block;
     margin-right: 5px;
     margin-top: 2px;
-    width: 15px;
+    /*width: 15px;
     height: 15px;
-    background-size: 15px;
+    background-size: 15px;*/
+    width: 1.2em;
+    height: 1.2em;
+    background-size: 1.2em;
     background-image: url('/images/file3.svg');
 }
 
