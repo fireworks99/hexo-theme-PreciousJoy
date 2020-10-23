@@ -3,11 +3,14 @@ body {
     margin: 0;
     height: 100vh;
     font-family: Arial, Roboto, "Droid Sans", "Hiragino Sans GB", "Microsoft YaHei", "Simsun", STXihei, "sans-serif";
+    cursor:url('/images/normal1.png'), default;
 }
 
 a {
 	text-decoration: none;
 }
+
+a:hover{cursor:url('/images/link1.png'), pointer;}
 
 #wrapper {
   background-image: url('../images/bg_bridge.jpeg');

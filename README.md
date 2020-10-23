@@ -172,6 +172,9 @@ stylesheets:
 - /css/article-sidebar-toc.css
 - /css/jquery.fancybox.min.css
 - /css/search.css
+- /css/toc.css
+- /css/sidebar.css
+- /css/archive.css
 
 
 

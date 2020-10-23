@@ -1,3 +1,7 @@
+#archive a {
+	color: black;
+}
+
 .archive-big:before {
 	content: '';
     display: inline-block;
