@@ -1,0 +1,59 @@
+.widget-title-friends:before {
+	content: '';
+    display: inline-block;
+    margin-right: 5px;
+    width: 1em;
+    height: 1em;
+    background-size: 1em 1.1em;
+    background-image: url('/images/friends.svg');
+}
+
+.widget-title-category:before {
+	content: '';
+    display: inline-block;
+    margin-right: 5px;
+    width: 1em;
+    height: 1em;
+    background-size: 1em 1.1em;
+    background-image: url('/images/category.svg');
+}
+
+.widget-title-tag:before {
+	content: '';
+    display: inline-block;
+    margin-right: 5px;
+    width: 1em;
+    height: 1em;
+    background-size: 1em 1.1em;
+    background-image: url('/images/tag.svg');
+}
+
+.widget-title-tagcloud:before {
+	content: '';
+    display: inline-block;
+    margin-right: 5px;
+    width: 1em;
+    height: 1em;
+    background-size: 1em 1.1em;
+    background-image: url('/images/cloud.svg');
+}
+
+.widget-title-archive:before {
+	content: '';
+    display: inline-block;
+    margin-right: 5px;
+    width: 1em;
+    height: 1em;
+    background-size: 1em 1.1em;
+    background-image: url('/images/archive.svg');
+}
+
+.widget-title-post:before {
+	content: '';
+    display: inline-block;
+    margin-right: 5px;
+    width: 1em;
+    height: 1em;
+    background-size: 1em 1.1em;
+    background-image: url('/images/post-it.svg');
+}

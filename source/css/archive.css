@@ -1,0 +1,39 @@
+.archive-big:before {
+	content: '';
+    display: inline-block;
+    margin-right: 5px;
+    width: 1em;
+    height: 1em;
+    background-size: 1em 1.1em;
+    background-image: url('/images/archive-big.svg');
+}
+
+.archive-category:before {
+	content: '';
+    display: inline-block;
+    margin-right: 5px;
+    width: 1em;
+    height: 1em;
+    background-size: 1em 1.1em;
+    background-image: url('/images/category.svg');
+}
+
+.archive-tag:before {
+	content: '';
+    display: inline-block;
+    margin-right: 5px;
+    width: 1em;
+    height: 1em;
+    background-size: 1em 1.1em;
+    background-image: url('/images/tag.svg');
+}
+
+.archive-archive:before {
+	content: '';
+    display: inline-block;
+    margin-right: 5px;
+    width: 1em;
+    height: 1em;
+    background-size: 1em 1.1em;
+    background-image: url('/images/archive.svg');
+}

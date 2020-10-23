@@ -8,7 +8,7 @@ const archivesList = list_archives({ show_count: false });
 <% if (is_year() === false) { %>
 <div id="archive">
 
-  <h1>Archives</h1>
+  <h1 class="archive-big">Archives</h1>
 
   <% if (theme.atom !== undefined) { %>
   <p>
@@ -19,7 +19,7 @@ const archivesList = list_archives({ show_count: false });
   <% } %>
 
   <aside>
-    <h2>Categories</h2>
+    <h2 class="archive-category">Categories</h2>
     <% if (categoriesList !== "") { %>
     <%-categoriesList%>
     <% } else { %>
@@ -29,7 +29,7 @@ const archivesList = list_archives({ show_count: false });
   <br>
 
   <aside>
-    <h2>Tags</h2>
+    <h2 class="archive-tag">Tags</h2>
     <% if (tagsList !== "") { %>
     <%-tagsList%>
     <% } else { %>
@@ -39,7 +39,7 @@ const archivesList = list_archives({ show_count: false });
   <br>
 
   <aside>
-    <h2>Archives</h2>
+    <h2 class="archive-archive">Archives</h2>
     <% if (archivesList !== "") { %>
     <%-archivesList%>
     <% } else { %>

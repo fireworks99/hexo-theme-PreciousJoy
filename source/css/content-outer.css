@@ -25,7 +25,11 @@
 	color: red;
 }
 
-#sidebar .widget-title {
+/*#sidebar .widget-title {
+	text-align: center;
+}*/
+
+h3[class^="widget-title-"] {
 	text-align: center;
 }
 

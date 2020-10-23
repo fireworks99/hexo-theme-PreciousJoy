@@ -21,6 +21,8 @@ stylesheets:
 - /css/jquery.fancybox.min.css
 - /css/search.css
 - /css/toc.css
+- /css/sidebar.css
+- /css/archive.css
 
 
 - /css/Z-last-cover-others.css
