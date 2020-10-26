@@ -95,3 +95,31 @@ hue-6-2: #e6c07b
 .hljs-link {
   text-decoration: underline;
 }
+
+pre {
+	position: relative;
+}
+
+code.has-numbering {
+    margin-left: 40px;
+}
+
+.pre-numbering {
+	margin: 0;
+	padding: 0;
+	background: rgb(40, 44, 52);
+    position: absolute;
+    top: 0;
+    width: 32px;
+    text-align: right;
+    font-family: monospace;
+    font-size: 1.5em;
+    border-right: 8px solid rgb(40, 44, 52);
+}
+
+.pre-numbering li {
+	list-style: none;
+	color: white;
+	width: 100%;
+	right: 0;
+}

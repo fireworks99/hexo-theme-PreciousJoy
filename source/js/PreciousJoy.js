@@ -6,6 +6,38 @@ $(document).ready(function () {
     // pjaxLoad();
     showArticleIndex();
     wrapImageWithFancyBox();
+
+    // Add line number for highlight.js
+    // $("pre code").each(function(){
+    // 	$(this).html("<ol><li>" + $(this).html().replace(/\n/g,"\n</li><li>") +"\n</li></ol>");
+    // });
+    
+
+    $('pre code').each(function(){
+        var texts = $(this).text().split('\n');
+        var lines = texts.length;
+        $.each(texts, function(index, value){
+            // console.log(index, value);
+            if(index === texts.length - 1 && value === "") {
+                // console.log("Caught you!");
+                lines--;
+            }
+        })
+        
+        var $numbering = $('<ul/>').addClass('pre-numbering');
+        $(this)
+        .addClass('has-numbering')
+        .parent()
+        .append($numbering);
+        for(i=1;i<=lines;i++){
+            $numbering.append($('<li/>').text(i));
+        }
+    });
+
+    // $('p code').each(function(){
+    //     $(this).addClass('p_code')
+    // });
+
 });
 
 function showArticleIndex() {
