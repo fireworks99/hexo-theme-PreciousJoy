@@ -123,3 +123,14 @@ code.has-numbering {
 	width: 100%;
 	right: 0;
 }
+
+.p_code {
+	display: inline-block;
+	line-height: 1.2em;
+	font-size: 1.2em;
+	color: #000;
+	font-family: Georgia, serif;
+	background: rgba(255,215,0, 0.3);
+	/*background: #fff;*/
+	border-radius: 0.2em;
+}

@@ -34,9 +34,9 @@ $(document).ready(function () {
         }
     });
 
-    // $('p code').each(function(){
-    //     $(this).addClass('p_code')
-    // });
+    $('p code').each(function(){
+        $(this).addClass('p_code')
+    });
 
 });
 
