@@ -108,13 +108,14 @@ code.has-numbering {
 	margin: 0;
 	padding: 0;
 	background: rgb(40, 44, 52);
-    position: absolute;
-    top: 0;
-    width: 32px;
-    text-align: right;
-    font-family: monospace;
-    font-size: 1.5em;
-    border-right: 8px solid rgb(40, 44, 52);
+  position: absolute;
+  top: 0;
+  width: 32px;
+  height: 100%;
+  text-align: right;
+  font-family: monospace;
+  font-size: 1.5em;
+  border-right: 8px solid rgb(40, 44, 52);
 }
 
 .pre-numbering li {
@@ -132,18 +133,26 @@ code.has-numbering {
 	font-family: Georgia, serif;
 	background: #fff;
 	border: 3px solid rgba(0, 0, 0, 0.4);
-	/*background: #fff;*/
 	border-radius: 0.3em;
+  word-break: break-word;
 }
 
 .blockquote_p {
 	background: #fff;
 	font-family: STKaiti;
 	font-size: 1.3em;
+  font-weight: bold;
+
+  /*      Amazing!     */
+  word-break: break-word;
+}
+
+.blockquote_p .p_code {
+  font-weight: normal;
 }
 
 table {
-	margin: 0 auto;
+	  margin: 0 auto;
     border-collapse: collapse;
 }
 

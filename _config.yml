@@ -23,6 +23,7 @@ stylesheets:
 - /css/toc.css
 - /css/sidebar.css
 - /css/archive.css
+- /css/jquery.mCustomScrollbar.min.css
 
 
 - /css/Z-last-cover-others.css
@@ -35,6 +36,7 @@ scripts:
 - /js/jquery.fancybox.min.js
 - /js/search.js
 - /js/load.js
+- /js/jquery.mCustomScrollbar.concat.min.js
 
 
 # userinfo

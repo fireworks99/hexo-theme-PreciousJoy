@@ -42,6 +42,11 @@ $(document).ready(function () {
         $(this).addClass('blockquote_p')
     });
 
+    $("pre code").mCustomScrollbar({
+        axis:"x",
+        theme:"light-thick"
+    });
+
 });
 
 function showArticleIndex() {
