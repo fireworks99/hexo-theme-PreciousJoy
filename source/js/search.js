@@ -16,7 +16,7 @@ var searchFunc = function (path, search_id, content_id) {
       var $resultContent = document.getElementById(content_id);
 
       $input.addEventListener('input', function () {
-        var str = '<ul class=\"search-result-list\">';
+        var str = '<ul class=\"search-result-list mCustomScrollbar\" data-mcs-theme=\"inset-3-dark\">';
         var keywords = this.value.trim().toLowerCase().split(/[\s\-]+/);
         $resultContent.innerHTML = "";
         if (this.value.trim().length <= 0) {
