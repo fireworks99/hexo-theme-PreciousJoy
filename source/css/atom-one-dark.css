@@ -130,7 +130,8 @@ code.has-numbering {
 	font-size: 1.2em;
 	color: #000;
 	font-family: Georgia, serif;
-	background: rgba(255,215,0, 0.3);
+	background: #fff;
+	border: 3px solid rgba(0, 0, 0, 0.4);
 	/*background: #fff;*/
-	border-radius: 0.2em;
+	border-radius: 0.3em;
 }

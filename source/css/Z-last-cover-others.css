@@ -48,6 +48,13 @@
     	width: 100%;
     }
 
+    code.has-numbering {
+        margin-left: 90px;
+    }
+    .pre-numbering {
+        width: 82px;
+    }
+
 }
 
 /*竖屏*/
@@ -115,6 +122,13 @@
 
     #recent-posts-paginator {
     	width: 100%;
+    }
+
+    code.has-numbering {
+        margin-left: 90px;
+    }
+    .pre-numbering {
+        width: 82px;
     }
 
 }
