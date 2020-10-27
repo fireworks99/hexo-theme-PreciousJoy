@@ -54,6 +54,11 @@
     .pre-numbering {
         width: 82px;
     }
+    .category-item time, .tag-item time, .archive-item time {
+      position: relative;
+      right: 0;
+    }
+
 
 }
 
@@ -129,6 +134,11 @@
     }
     .pre-numbering {
         width: 82px;
+    }
+
+    .category-item time, .tag-item time, .archive-item time {
+      position: relative;
+      right: 0;
     }
 
 }

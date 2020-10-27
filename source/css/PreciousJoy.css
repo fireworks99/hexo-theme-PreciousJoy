@@ -1,9 +1,9 @@
 
 body {
-    margin: 0;
-    height: 100vh;
-    font-family: Arial, Roboto, "Droid Sans", "Hiragino Sans GB", "Microsoft YaHei", "Simsun", STXihei, "sans-serif";
-    cursor:url('/images/normal1.png'), default;
+  margin: 0;
+  height: 100vh;
+  font-family: Arial, Roboto, "Droid Sans", "Hiragino Sans GB", "Microsoft YaHei", "Simsun", STXihei, "sans-serif";
+  cursor:url('/images/normal1.png'), default;
 }
 
 a {
@@ -21,7 +21,7 @@ a:hover{cursor:url('/images/link1.png'), pointer;}
   position: absolute;
   right: 0;
   width: 100%;
-/*  height: 100vh;*/
+  /*  height: 100vh;*/
   transition: 0.2s ease-out;
   z-index: 1;
 }
@@ -34,32 +34,32 @@ a:hover{cursor:url('/images/link1.png'), pointer;}
 /* #################### 文章索引 #################### */
 
 aside #toc a.read{
-    /*color: #e06c75;*/
-    color: #87daff;
-    border-bottom: 0;
-    -webkit-transition: 0.5s;
-    -moz-transition: 0.5s;
-    -ms-transition: 0.5s;
-    -o-transition: 0.5s;
+  /*color: #e06c75;*/
+  color: #87daff;
+  border-bottom: 0;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
 }
 
 aside #toc a{
-    color: #999;
-    border-bottom: 0;
-    -webkit-transition: 0.2s;
-    -moz-transition: 0.2s;
-    -ms-transition: 0.2s;
-    -o-transition: 0.2s;
+  color: #999;
+  border-bottom: 0;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -o-transition: 0.2s;
 }
 
 aside #toc a:hover{
-    /*color: #87daff;*/
-    color: #e5c07b;
-    padding-left: 20px;
-    -webkit-transition: 0.1s;
-    -moz-transition: 0.1s;
-    -ms-transition: 0.1s;
-    -o-transition: 0.1s;
+  /*color: #87daff;*/
+  color: #e5c07b;
+  padding-left: 20px;
+  -webkit-transition: 0.1s;
+  -moz-transition: 0.1s;
+  -ms-transition: 0.1s;
+  -o-transition: 0.1s;
 }
 
 /* #################### 文章索引 #################### */
@@ -71,10 +71,60 @@ a[class$="-list-link"]:hover {
 }
 
 @keyframes waveMove {
-    from { background-position: 0 100%; }
-    to   { background-position: -100px 100%; }
+  from { background-position: 0 100%; }
+  to   { background-position: -100px 100%; }
 }
 
 .friends-list-link {
   text-align: center;
+}
+
+.prev {
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  background-size: 1.5em;
+  background-image: url("/images/prev.svg");
+  position: relative;
+  bottom: -0.3em;
+}
+
+.next {
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  background-size: 1.5em;
+  background-image: url("/images/next.svg");
+  position: relative;
+  bottom: -0.3em;
+}
+
+.page-number {
+  display: inline-block;
+  width: 1.3em;
+  height: 1.3em;
+  background: #8AC007;
+  border-radius: 50%;
+  position: relative;
+  top: -0.3em;
+}
+
+.current {
+  background: orange;
+}
+
+.category-item, .tag-item, .archive-item {
+  background: #bfa;
+  line-height: 1.5em;
+  font-size: 1.5em;
+  font-family: Georgia, serif;
+  font-style: italic;
+  margin-top: 0.5em;
+
+  position: relative;
+}
+
+.category-item time, .tag-item time, .archive-item time {
+  position: absolute;
+  right: 1em;
 }
