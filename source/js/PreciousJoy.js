@@ -38,6 +38,10 @@ $(document).ready(function () {
         $(this).addClass('p_code')
     });
 
+    $('blockquote p').each(function(){
+        $(this).addClass('blockquote_p')
+    });
+
 });
 
 function showArticleIndex() {

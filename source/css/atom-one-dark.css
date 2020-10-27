@@ -135,3 +135,38 @@ code.has-numbering {
 	/*background: #fff;*/
 	border-radius: 0.3em;
 }
+
+.blockquote_p {
+	background: #fff;
+	font-family: STKaiti;
+	font-size: 1.3em;
+}
+
+table {
+	margin: 0 auto;
+    border-collapse: collapse;
+}
+
+thead {
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+td, th {
+    border: 1px solid #999;
+    padding: 0.5rem;
+    text-align: left;
+}
