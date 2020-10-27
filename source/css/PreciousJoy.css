@@ -64,3 +64,17 @@ aside #toc a:hover{
 
 /* #################### 文章索引 #################### */
 
+a[class$="-list-link"]:hover {
+	background: url("/images/red-wave.svg") repeat-x 0 100%;
+	background-size: 1.5em auto;
+	animation: waveMove 4s infinite linear;
+}
+
+@keyframes waveMove {
+    from { background-position: 0 100%; }
+    to   { background-position: -100px 100%; }
+}
+
+.friends-list-link {
+  text-align: center;
+}

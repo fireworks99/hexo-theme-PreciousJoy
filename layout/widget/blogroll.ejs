@@ -2,7 +2,7 @@
     <h3 class="widget-title-friends">friends</h3>
     <div class="widget">
       <% for (var i in theme.blogroll){ %>
-        <a style="display: block;" href="<%- url_for(theme.blogroll[i]) %>" title target='_blank'
+        <a class="friends-list-link" style="display: block;" href="<%- url_for(theme.blogroll[i]) %>" title target='_blank'
         ><%= i %></a>
       <% } %>
     </div>
