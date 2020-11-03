@@ -49,16 +49,19 @@
     }
 
     code.has-numbering {
-        margin-left: 90px;
+        margin-left: 94px;
     }
     .pre-numbering {
-        width: 82px;
+        width: 86px;
     }
     .category-item time, .tag-item time, .archive-item time {
       position: relative;
       right: 0;
     }
 
+    .menu-item:last-of-type {
+    	display: none;
+    }
 
 }
 
@@ -130,15 +133,19 @@
     }
 
     code.has-numbering {
-        margin-left: 90px;
+        margin-left: 94px;
     }
     .pre-numbering {
-        width: 82px;
+        width: 86px;
     }
 
     .category-item time, .tag-item time, .archive-item time {
       position: relative;
       right: 0;
+    }
+
+    .menu-item:last-of-type {
+    	display: none;
     }
 
 }

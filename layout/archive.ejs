@@ -66,7 +66,11 @@ const archivesList = list_archives({ show_count: false });
   <% }) %>
 
   <div id="other-paginator">
-    <%-paginator()%>
+    <%-paginator({
+          prev_text: ' ',
+          next_text: ' ',
+          escape: false
+    })%>
   </div>
 
 </div>

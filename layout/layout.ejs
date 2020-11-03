@@ -55,12 +55,12 @@ pageTitle += ' [ ' + config.title + ' ]';
 			<div id="menu-inner">
 				
 				<% Object.keys(theme.menu).forEach(key => { %>
-				<div id="menu-item">
+				<div class="menu-item">
 					<a href="<%=theme.menu[key]%>"><%=key%></a>
 				</div>
 				<% }); %>
 
-				<div id="menu-item">
+				<div class="menu-item">
 					<%-partial('partials/search')%>	
 				</div>
 

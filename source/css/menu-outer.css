@@ -8,14 +8,14 @@
 	display: flex;
 }
 
-#menu-item {
+.menu-item {
 	flex: 1;
 	height: 2.5em;
 	/*background-color: #bfa;*/
 	display: flex;
 }
 
-#menu-item a {
+.menu-item a {
 	color: black;
 	display: block;
 	text-decoration: none;
@@ -24,7 +24,7 @@
 	/*background-color: green;*/
 }
 
-#menu-item a:hover{
+.menu-item a:hover{
 	color: white;
 	background-color: black;
 }
