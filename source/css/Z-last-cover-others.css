@@ -49,10 +49,10 @@
     }
 
     code.has-numbering {
-        margin-left: 94px;
+        margin-left: 30px;
     }
     .pre-numbering {
-        width: 86px;
+        width: 22px;
     }
     .category-item time, .tag-item time, .archive-item time {
       position: relative;
@@ -62,6 +62,10 @@
     .menu-item:last-of-type {
     	display: none;
     }
+    .recent-post-item {
+        margin-top: 25px;
+    }
+
 
 }
 
@@ -70,12 +74,12 @@
 
     /*special*/
 
-    body {
+    /*body {*/
 
         /*Bug : if not portrait screen but width <= 624px, the font size is so large.*/
 
-        font-size: 300%;
-    }
+        /*font-size: 300%;*/
+    /*}*/
 
     /*This is very important: change 'flex' to 'block'.*/
     #details {
@@ -133,10 +137,10 @@
     }
 
     code.has-numbering {
-        margin-left: 94px;
+        margin-left: 30px;
     }
     .pre-numbering {
-        width: 86px;
+        width: 22px;
     }
 
     .category-item time, .tag-item time, .archive-item time {
@@ -146,6 +150,10 @@
 
     .menu-item:last-of-type {
     	display: none;
+    }
+
+    .recent-post-item {
+        margin-top: 25px;
     }
 
 }
