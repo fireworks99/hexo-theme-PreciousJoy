@@ -1,11 +1,15 @@
 # hexo-theme-PreciousJoy
 A simple theme made by a newbie.
 
-<a href="https://fireworks99.github.io/" style="color:violet;">Demo</a>
+<a href="https://fireworks99.github.io/" style="color:violet;">Demo(github)</a> 
+
+<a href="http://fireworks99.top/" style="color:violet;">Demo(in China)</a> 
 
 ![main](./demo/main.png)
 
 ![search](./demo/search.png)
+
+![Support to LaTex](./demo/LaTex_support.png)
 
 ![mobile_main](./demo/mobile_main.png)
 
@@ -27,6 +31,15 @@ $ npm install hexo-generator-search --save
 ~~~
 
 > A plugin which support you search blogs  in your site
+
+~~~shell
+npm uninstall hexo-renderer-marked --save
+npm install hexo-renderer-kramed --save
+~~~
+
+> To choose a better hexo renderer.
+>
+> This is important if you'll use LaTex in your blogs.
 
 ## Your-hexo-site _config.yml
 
@@ -218,5 +231,34 @@ local_search:
   enable: true
   facade: ""
 
+# MathJax Support
+mathjax:
+  enable: true
+  cdn: https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js?config=TeX-AMS-MML_HTMLorMML
 ~~~
 
+
+
+## Something I want to say
+
+### About LaTex:
+
+> If you want to use Latex in your blogs, you must make sure that the option "mathjax: enable" in PerciousJoy _config.yml is true and keep network available.
+>
+> Attention:
+>
+> Add `mathjax: true` at the head when you write an article which used LaTex.
+>
+> In one line, if the front of the line is `$$` and the end of the line is also the `$$` , don't use `$$` in the line anymore! Or there will be some bugs in rendering LaTex.
+
+### About Avatar:
+
+> Select a picture and move it to `PreciousJoy/source/images/`. Then add path(` '/images/your_picture_name.png'`) in PreciousJoy _config.yml.
+
+### About Code
+
+> Don't slide your cursor over the code which means slide the code to the left or right.
+
+### My English is poor :(
+
+> If you feel it hard to understand what I said, leave me a message.

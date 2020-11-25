@@ -128,3 +128,8 @@ a[class$="-list-link"]:hover {
   position: absolute;
   right: 1em;
 }
+
+.MathJax_Display {
+	overflow-x: auto;
+	overflow-y: hidden;
+}

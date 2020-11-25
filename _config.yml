@@ -38,7 +38,6 @@ scripts:
 - /js/load.js
 - /js/jquery.mCustomScrollbar.concat.min.js
 
-
 # userinfo
 author: fireworks99
 slogan: keep hungry keep foolish
@@ -66,3 +65,8 @@ Livere:
 local_search:
   enable: true
   facade: "" 
+
+# MathJax Support
+mathjax:
+  enable: true
+  cdn: https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js?config=TeX-AMS-MML_HTMLorMML

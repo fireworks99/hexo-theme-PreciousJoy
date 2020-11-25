@@ -12,9 +12,9 @@ $(document).ready(function () {
     // 	$(this).html("<ol><li>" + $(this).html().replace(/\n/g,"\n</li><li>") +"\n</li></ol>");
     // });
     
-    if($('#details').length > 0){
+    if($('#recent-posts-box').length > 0){
     	$('.menu-item-search').css({
-    		"display": "none"
+    		"display": "flex"
     	})
     }
     

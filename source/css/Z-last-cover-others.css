@@ -1,3 +1,7 @@
+.menu-item-search {
+  display: none;
+}
+
 /* #################### 自适应 #################### */
 
 @media screen and (max-width: 768px) {
