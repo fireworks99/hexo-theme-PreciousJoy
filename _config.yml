@@ -37,6 +37,7 @@ scripts:
 - /js/search.js
 - /js/load.js
 - /js/jquery.mCustomScrollbar.concat.min.js
+- /js/clipboard.min.js
 
 # userinfo
 author: fireworks99

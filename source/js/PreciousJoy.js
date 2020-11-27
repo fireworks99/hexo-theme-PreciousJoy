@@ -20,6 +20,14 @@ $(document).ready(function () {
     
 
     $('pre code').each(function(){
+        var data = $(this).text();
+        var $btn = $("<button>Copy</button>");
+        $btn.addClass('copy_btn');
+        $btn.attr("data-clipboard-text", data);
+        $(this).parent().append($btn);
+
+
+
         var texts = $(this).text().split('\n');
         var lines = texts.length;
         $.each(texts, function(index, value){
@@ -41,7 +49,7 @@ $(document).ready(function () {
     });
 
     $('p code').each(function(){
-        $(this).addClass('p_code')
+        $(this).addClass('p_code');
     });
 
     $('blockquote p').each(function(){
@@ -52,6 +60,10 @@ $(document).ready(function () {
         axis:"x",
         theme:"light-thick"
     });
+
+    new ClipboardJS(".copy_btn");
+
+
 
 });
 

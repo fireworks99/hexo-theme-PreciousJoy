@@ -1,5 +1,8 @@
-# hexo-theme-PreciousJoy
+hexo-theme-PreciousJoy
+
 A simple theme made by a newbie.
+
+![clip board](https://img.shields.io/badge/Copy%20code-clipboard.js-brightgreen) ![View images](https://img.shields.io/badge/%20View%20images-Fancybox-yellow) ![scrollbar](https://img.shields.io/badge/scrollbar-jquery--custom--content--scroller-orange) ![LaTex](https://img.shields.io/badge/LaTex-MathJax-red) ![highlight](https://img.shields.io/badge/highlight%20code-highlight.js-blue) 
 
 <a href="https://fireworks99.github.io/" style="color:violet;">Demo(github)</a> 
 
