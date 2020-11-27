@@ -63,7 +63,15 @@ $(document).ready(function () {
 
     new ClipboardJS(".copy_btn");
 
-
+    const copyBtns = document.getElementsByClassName("copy_btn");
+    for(let i = 0; i < copyBtns.length; ++i) {
+        copyBtns[i].onclick = function() {
+            this.innerText = "Copied";
+        }
+        copyBtns[i].onmouseout = function() {
+            this.innerText = "Copy";
+        }
+    }
 
 });
 
