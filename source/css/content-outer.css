@@ -114,6 +114,10 @@ h3[class^="widget-title-"] {
 	width: 95%;
 }
 
+#taboola-livere {
+	display: none;
+}
+
 #page #lv-container {
 	width: 100%;
 }
