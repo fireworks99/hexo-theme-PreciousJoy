@@ -10,7 +10,7 @@
 
 #recent-posts-box {
 	flex: 8;
-	/*background-color: pink;*/
+	overflow: auto;
 }
 
 #sidebar {
