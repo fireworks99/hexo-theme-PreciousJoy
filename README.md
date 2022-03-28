@@ -6,7 +6,7 @@ A simple theme made by a newbie.
 
 <a href="https://fireworks99.github.io/" style="color:violet;">Demo(github)</a> 
 
-<a href="http://fireworks99.top/" style="color:violet;">Demo(in China)</a> 
+
 
 ![main](./demo/main.png)
 
