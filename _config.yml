@@ -52,7 +52,7 @@ widgets:
 - blogroll
 - category
 - tag
-- tagcloud
+# - tagcloud
 - archive
 - recent_posts
 
@@ -61,7 +61,7 @@ blogroll:
   fireworks99: https://fireworks99.github.io/
 
 Livere:
-  livere_uid: 'MTAyMC80NjIyNC8yMj3zNQ=='
+  # livere_uid: 'MTAyMC80NjIyNC8yMj3zNQ=='
 
 local_search:
   enable: true

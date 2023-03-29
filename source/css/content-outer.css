@@ -36,8 +36,7 @@ h3[class^="widget-title-"] {
 
 .recent-post-item {
 	width: 95%;
-	/*height: 200px;*/
-	/*border-radius: 5%;*/
+	padding: 24px 8px 24px 24px;
 	margin-top: 50px;
 	background-color: rgba(255, 255, 255, 0.8);
 }
@@ -95,6 +94,7 @@ h3[class^="widget-title-"] {
 	width: 95%;
 	text-align: center;
 	background-color: rgba(255, 255, 255, 0.8);
+	padding: 24px 8px 24px 24px;
 }
 
 #content-inner #page {
