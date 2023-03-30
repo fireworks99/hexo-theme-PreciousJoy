@@ -100,6 +100,7 @@ pre {
 
 code.has-numbering {
     margin-left: 40px;
+    font-size: 16px;
 }
 
 .pre-numbering {
@@ -113,6 +114,7 @@ code.has-numbering {
   text-align: right;
   font-family: monospace;
   border-right: 8px solid rgb(40, 44, 52);
+  font-size: 16px;
 }
 
 .pre-numbering li {

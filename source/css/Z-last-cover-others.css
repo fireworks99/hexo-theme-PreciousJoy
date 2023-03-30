@@ -34,6 +34,8 @@
 
     .recent-post-item {
         width: 100%;
+        margin-top: 25px;
+        box-sizing: border-box;
     }
 
     #top-bar {
@@ -42,6 +44,7 @@
 
     #details-post-item {
         width: 100%;
+        box-sizing: border-box;
     }
 
     #details-post {
@@ -65,9 +68,6 @@
 
     .menu-item:last-of-type {
     	display: none;
-    }
-    .recent-post-item {
-        margin-top: 25px;
     }
 
 
@@ -122,6 +122,8 @@
 
     .recent-post-item {
         width: 100%;
+        margin-top: 25px;
+        box-sizing: border-box;
     }
 
     #top-bar {
@@ -130,6 +132,7 @@
 
     #details-post-item {
         width: 100%;
+        box-sizing: border-box;
     }
 
     #details-post {
@@ -154,10 +157,6 @@
 
     .menu-item:last-of-type {
     	display: none;
-    }
-
-    .recent-post-item {
-        margin-top: 25px;
     }
 
 }
